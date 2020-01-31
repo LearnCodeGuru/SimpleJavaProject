@@ -24,11 +24,11 @@ public class Driver {
 			e.printStackTrace();
 		}
 
-		try {
-			thread3.join();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			thread3.join();
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 
 		System.out.println("END TESTING NOW");
 	}
