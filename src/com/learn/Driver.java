@@ -3,7 +3,7 @@ package com.learn;
 public class Driver {
 
 	public static void main(String[] args) {
-		System.out.println("START TESTING");
+		System.out.println("START TESTING NOW");
 		WokerThread thread1 = new WokerThread("Slowest", 15);
 		WokerThread thread2 = new WokerThread("Slow", 10);
 		WokerThread thread3 = new WokerThread("Fast", 5);
@@ -24,12 +24,12 @@ public class Driver {
 			e.printStackTrace();
 		}
 
-		try {
-			thread3.join();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			thread3.join();
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 
-		System.out.println("END TESTING");
+		System.out.println("END TESTING NOW");
 	}
 }
